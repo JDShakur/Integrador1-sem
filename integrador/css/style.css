@@ -14,15 +14,15 @@ article{
     text-align: center;
     background-color:antiquewhite ;
     float: left;
-    border-radius: 5px;
+    
 }
 p{
     
     padding: 10px 90px;
     text-indent: 25px;
     font-size: medium;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 header
 { 
@@ -43,7 +43,7 @@ nav{
 
 nav,ul,li,a
 {   
-    border-radius: 5px;
+
     display:inline-block; 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
@@ -90,7 +90,6 @@ footer
     color:gold;
     padding: 10px;
     margin:0px auto 0px auto;
-    border-radius: 6px;
     text-align: center;
 }
 aside{
@@ -222,8 +221,8 @@ justify-content:center;
     height: fit-content;
 }
 .qualquer{
-    display: flexbox;
-    padding: 10px 90px;
+    display: flex;
+    width: 900px;
 }
 .control{
    width: 400px;
@@ -285,5 +284,10 @@ justify-content:center;
     padding: 10px;
     border: double 5px rgb(0, 3, 3) ;
     border-radius: 9px;
+  
 
+}
+.lateral{
+ padding: 20px;
+    
 }
